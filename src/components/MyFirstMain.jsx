@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { , Container, Row, Spinner, Alert, } from "react-bootstrap";
+import {Container, Row, Spinner, Alert, } from "react-bootstrap";
 import OneFilm from "./Onefilm";
 
 class MyFirstMain extends Component {
