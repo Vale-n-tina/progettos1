@@ -5,7 +5,7 @@ const SecondNavbar = function () {
     <Container fluid className="px-4">
     <div className="d-flex justify-content-between">
       <div className="d-flex">
-        <h2 className="mb-4">TV Shows</h2>
+        <h2 >TV Shows</h2>
 
         <DropdownButton
           variant="secondary"
