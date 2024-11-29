@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Col, Container, Row, Spinner, Alert } from "react-bootstrap";
+import { Modal, Container, Row, Spinner, Alert,Button } from "react-bootstrap";
 import OneFilm from "./Onefilm";
 
 class MyFirstMain extends Component {
@@ -7,6 +7,7 @@ class MyFirstMain extends Component {
     films: [],
     loading: true,
     error: false,
+    modal:false
   };
 
   getFilm = () => {
@@ -58,7 +59,10 @@ class MyFirstMain extends Component {
 
           {this.state.films.map((film) => {
             return (
+              
               <OneFilm key={film.imdbID} film={film}/>
+             
+            
             );
           })}
         </Row>
